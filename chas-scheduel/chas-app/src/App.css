@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  #313c86;
+   
+  }
+  
+  nav {
+    background-color: #121738;
+    height: 50px;
+  }
+  
+
+  .logo {
+    float: left;
+    padding: 14px 16px;
+    color: rgba(139, 255, 141, 0.807);
+    font-size: 16px;
+  }
+  .card{
+    width:auto;
+    height:auto;
+    text-align: center;
+   border-radius: 10px;
+    border: 5px solid #007bff;;
+    background-color: #a7d9aa;
+    margin:10px;
+    padding: 8px 30px;
+    
+    font-size: 20px;
+  } 
+    
+.centerCard{
+  
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    ;}
+
+.left{
+  text-align: left;
+}
+h4{
+  margin: 0;
+}
+
+p{
+  margin: 5px;
+  margin-bottom: 15px;
+}
+
+a{
+  border: solid #121738 3px;
+  border-radius: 5px;
+  padding: 4px;
+}
+a:hover{
+  background: #d27cf7;
+}
+
+
+/* For mobile screens  */
+  @media only screen and (max-width: 600px) {
+    /* CSS Styles for phone screen sizes */
+    nav {
+      height: 10vh; /* Adjust the height for better visibility on smaller screens */
+    }
+  
+    .logo {
+      font-size: 40px;
+      float: none;
+      text-align: center;
+
+    }
+ 
+  }
